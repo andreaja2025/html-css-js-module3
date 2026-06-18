@@ -2,51 +2,34 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Brand */
+/* Navbar brand */
 .navbar-brand {
   font-size: 24px;
   font-weight: bold;
 }
 
-/* Navbar spacing */
-.navbar {
-  margin-bottom: 0;
-}
-
-/* Mobile menu */
-#nav-list {
+/* menú móvil */
+.navbar-nav {
   margin: 0;
   padding: 0;
-}
-
-/* FULL WIDTH MENU ITEMS (CLAVE PARA RUBRICA) */
-#nav-list li {
   width: 100%;
-  background-color: #f8f8f8;
-  border-bottom: 1px solid #ccc;
 }
 
-/* Links */
-#nav-list li a {
-  display: block;
+.navbar-nav li {
+  width: 100%;
+  background: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-nav li a {
   padding: 15px;
-  color: black;
+  display: block;
 }
 
-/* Hover */
-#nav-list li a:hover {
-  background-color: #e7e7e7;
-}
-
-/* Title */
-h1.text-center {
-  margin: 20px 0 30px 0;
-}
-
-/* Section (must be tall) */
+/* sección */
 .menu-section {
-  background-color: #f2f2f2;
+  background: #f2f2f2;
+  margin-bottom: 15px;
   padding: 20px;
-  height: 1000px; /* REQUIRED */
-  border: 1px solid #ddd;
+  height: 700px;
 }
