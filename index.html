@@ -6,69 +6,75 @@
 
   <title>Module 3 Solution</title>
 
-  <!-- Bootstrap CSS -->
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-  <!-- Custom CSS -->
+  <!-- CSS propio -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-<header>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
+<!-- NAVBAR -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
 
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">Food, LLC</a>
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Food, LLC</a>
 
-        <button type="button"
-                class="navbar-toggle collapsed"
-                data-toggle="collapse"
-                data-target="#collapsable-nav">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
+      <!-- botón hamburguesa SOLO XS -->
+      <button type="button"
+              class="navbar-toggle collapsed visible-xs"
+              data-toggle="collapse"
+              data-target="#menu">
 
-      <div id="collapsable-nav" class="collapse navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
 
-        <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
-          <li><a href="#chicken">Chicken</a></li>
-          <li><a href="#beef">Beef</a></li>
-          <li><a href="#sushi">Sushi</a></li>
-        </ul>
-
-      </div>
-
+      </button>
     </div>
-  </nav>
-</header>
 
+    <!-- menú colapsable -->
+    <div id="menu" class="collapse navbar-collapse">
 
-<div class="container">
+      <ul class="nav navbar-nav text-center visible-xs">
+        <li><a href="#chicken">Chicken</a></li>
+        <li><a href="#beef">Beef</a></li>
+        <li><a href="#sushi">Sushi</a></li>
+      </ul>
 
-  <h1 class="text-center">Our Menu</h1>
-
-  <div class="row">
-
-    <div class="col-xs-12">
-      <section id="chicken" class="menu-section">
-        <h3 class="text-center">Chicken</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet...
-        </p>
-      </section>
     </div>
 
   </div>
+</nav>
 
+<!-- TÍTULO -->
+<h1 class="text-center" id="top">Our Menu</h1>
+
+<!-- GRID -->
+<div class="container">
+  <div class="row">
+
+    <div class="col-xs-12 menu-section" id="chicken">
+      <h3 class="text-center">Chicken</h3>
+      <p>Lorem ipsum dolor sit amet...</p>
+    </div>
+
+    <div class="col-xs-12 menu-section" id="beef">
+      <h3 class="text-center">Beef</h3>
+      <p>Lorem ipsum dolor sit amet...</p>
+    </div>
+
+    <div class="col-xs-12 menu-section" id="sushi">
+      <h3 class="text-center">Sushi</h3>
+      <p>Lorem ipsum dolor sit amet...</p>
+    </div>
+
+  </div>
 </div>
 
-
-<!-- JS (IMPORTANTE: orden correcto) -->
+<!-- JS OBLIGATORIO (IMPORTANTE ORDEN) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
