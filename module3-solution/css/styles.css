@@ -2,34 +2,60 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Navbar brand */
+/* NAVBAR */
+
+.navbar {
+  border-radius: 0;
+}
+
 .navbar-brand {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
 }
 
-/* menú móvil */
-.navbar-nav {
-  margin: 0;
+/* BOTÓN HAMBURGUESA */
+
+.navbar-toggle {
+  margin-top: 8px;
+}
+
+/* MENÚ MÓVIL */
+
+#mobile-menu {
   padding: 0;
-  width: 100%;
 }
 
-.navbar-nav li {
-  width: 100%;
-  background: #f8f8f8;
-  border-bottom: 1px solid #ddd;
+#mobile-menu ul {
+  margin: 0;
 }
 
-.navbar-nav li a {
-  padding: 15px;
-  display: block;
+#mobile-menu li {
+  background-color: #f2f2f2;
+  border-top: 1px solid #000;
 }
 
-/* sección */
+#mobile-menu a {
+  color: #000;
+  font-size: 1.2em;
+}
+
+/* TÍTULO */
+
+h1 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* SECCIÓN */
+
 .menu-section {
-  background: #f2f2f2;
-  margin-bottom: 15px;
+  background-color: #d9d9d9;
   padding: 20px;
-  height: 700px;
+  height: 1000px;
+  margin-bottom: 30px;
+}
+
+.menu-section h3 {
+  margin-top: 0;
+  font-weight: bold;
 }
