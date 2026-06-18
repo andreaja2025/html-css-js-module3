@@ -1,62 +1,117 @@
-/* General */
-body {
-  font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-/* Navbar brand */
-.navbar-brand {
-  font-size: 24px;
-  font-weight: bold;
-}
+<title>Module 3 Solution</title>
 
-/* Remove extra spacing issues */
-.navbar {
-  margin-bottom: 0;
-}
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-/* Mobile dropdown menu */
-#nav-list {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
-}
+<link rel="stylesheet" href="css/styles.css">
+</head>
 
-/* Each menu item full width (IMPORTANT FOR GRADING) */
-#nav-list li {
-  width: 100%;
-  background-color: #f8f8f8;
-  border-bottom: 1px solid #ccc;
-}
+<body>
 
-/* Links styling */
-#nav-list li a {
-  display: block;
-  padding: 15px;
-  color: #000;
-  text-decoration: none;
-}
+<header>
 
-/* Hover effect (optional but nice) */
-#nav-list li a:hover {
-  background-color: #e7e7e7;
-}
+<nav class="navbar navbar-default">
+<div class="container-fluid">
 
-/* Page title */
-h1.text-center {
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
+<div class="navbar-header">
 
-/* Menu section (IMPORTANT: makes it tall like rubric asks) */
-.menu-section {
-  background-color: #f2f2f2;
-  padding: 20px;
-  height: 1000px; /* REQUIRED for scroll */
-  border: 1px solid #ddd;
-}
+<a class="navbar-brand" href="#">
+Food, LLC
+</a>
 
-/* Section heading */
-.menu-section h3 {
-  margin-top: 0;
-  margin-bottom: 15px;
-}
+<button type="button"
+class="navbar-toggle collapsed"
+data-toggle="collapse"
+data-target="#collapsable-nav"
+aria-expanded="false">
+
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+
+</button>
+
+</div>
+
+<div id="collapsable-nav"
+class="collapse navbar-collapse">
+
+<ul id="nav-list"
+class="nav navbar-nav navbar-right visible-xs text-center">
+
+<li>
+<a href="#">Chicken</a>
+</li>
+
+<li>
+<a href="#">Beef</a>
+</li>
+
+<li>
+<a href="#">Sushi</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+</nav>
+
+</header>
+
+<div class="container">
+
+<h1 class="text-center">
+Our Menu
+</h1>
+
+<div class="row">
+
+<div class="col-xs-12">
+
+<section class="menu-section">
+
+<h3 class="text-center">
+Chicken
+</h3>
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</p>
+
+</section>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
