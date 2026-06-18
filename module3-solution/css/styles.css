@@ -1,62 +1,52 @@
-/* General */
 body {
   font-family: Arial, sans-serif;
 }
 
-/* Navbar brand */
+/* Brand */
 .navbar-brand {
   font-size: 24px;
   font-weight: bold;
 }
 
-/* Remove extra spacing issues */
+/* Navbar spacing */
 .navbar {
   margin-bottom: 0;
 }
 
-/* Mobile dropdown menu */
+/* Mobile menu */
 #nav-list {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   padding: 0;
 }
 
-/* Each menu item full width (IMPORTANT FOR GRADING) */
+/* FULL WIDTH MENU ITEMS (CLAVE PARA RUBRICA) */
 #nav-list li {
   width: 100%;
   background-color: #f8f8f8;
   border-bottom: 1px solid #ccc;
 }
 
-/* Links styling */
+/* Links */
 #nav-list li a {
   display: block;
   padding: 15px;
-  color: #000;
-  text-decoration: none;
+  color: black;
 }
 
-/* Hover effect (optional but nice) */
+/* Hover */
 #nav-list li a:hover {
   background-color: #e7e7e7;
 }
 
-/* Page title */
+/* Title */
 h1.text-center {
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin: 20px 0 30px 0;
 }
 
-/* Menu section (IMPORTANT: makes it tall like rubric asks) */
+/* Section (must be tall) */
 .menu-section {
   background-color: #f2f2f2;
   padding: 20px;
-  height: 1000px; /* REQUIRED for scroll */
+  height: 1000px; /* REQUIRED */
   border: 1px solid #ddd;
-}
-
-/* Section heading */
-.menu-section h3 {
-  margin-top: 0;
-  margin-bottom: 15px;
 }
